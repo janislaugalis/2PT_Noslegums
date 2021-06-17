@@ -11,9 +11,9 @@ public class uzdevums {
 		int punkti=10;
 		Scanner scan = new Scanner(System.in);
 		
-		
+
 		do{ // jautâjumu sazarojums
-			x = Integer.parseInt(JOptionPane.showInputDialog("Kâdâs situâcijâs izmanto IF ELSE sazarojumu? \n1. Ja ir vairâkas situâcijas. \n2. Ja programmâ ir kïûdas.  \n3. Ja programma pieprasa semikolu \n4. Ja programmâ ir ievietots “Scanner” ")); // nosacîjums
+			x = Integer.parseInt(JOptionPane.showInputDialog("Kâdâs situâcijâs izmanto If Else sazarojumu? \n1. Ja ir vairâkas situâcijas. \n2. Ja programmâ ir kïûdas.  \n3. Ja programma pieprasa semikolu \n4. Ja programmâ ir ievietots “Scanner” ")); // nosacîjums
 			y = 1; //atbilde
 			if (x==y) {
 				JOptionPane.showMessageDialog(null, "--- Pareizi ---");
@@ -22,7 +22,6 @@ public class uzdevums {
 				x1 = 1;
 			}
 		}while(x!=y);
-		
 		do{
 			x = Integer.parseInt(JOptionPane.showInputDialog("--- 2. Kâda ir atðíirîba no IF ELSE un Switch sazarojumiem? --- \n1. Switch ir çrtâks par IF ELSE \n2. Switch pieprasa îsâku pierakstu. \n3. Switch izmanto case un default, kamçr IF ELSE netiek tie izmantoti \n4. Visas atbildes ir pareizas. "));
 			y = 4; //atbilde
@@ -33,7 +32,6 @@ public class uzdevums {
 				x2 = 1;
 			}
 		}while(x!=y);
-		
 		do{
 			x = Integer.parseInt(JOptionPane.showInputDialog("--- 3. Kâda ir atðíirîba starp lineâru un sazarotu programmu?  --- \n1. Lineâra programma nespçj izskatît vairâkas situâcijas, pretçji sazarotai programmai. \n2. Lineâra programma veic tieði to paðu, ko sazarota programma \n3. Lineâra programma piedâvâ vairâk iespçjas \n4. Lineâra programmai lielâks risks uz kïûdâm. "));
 			y = 1; //atbilde
@@ -44,9 +42,8 @@ public class uzdevums {
 				x3 = 1;
 			}
 		}while(x!=y);
-		
 		do{
-			x = Integer.parseInt(JOptionPane.showInputDialog("--- 4. IF funkcija veic? --- \n1. Novçrtç, vai izteiksme ir vienâda vai nç. \n2. Novçrtç, vai izteiksme ir patiesa vai aplama \n3. Novçrtç, vai izteiksme ir mazâka vai lielâka par skaitli \n4. Novçrtç, vai String objektâ ir noteikti burti vai nav "));
+			x = Integer.parseInt(JOptionPane.showInputDialog("--- 4. If funkcija veic? --- \n1. Novçrtç, vai izteiksme ir vienâda vai nç. \n2. Novçrtç, vai izteiksme ir patiesa vai aplama \n3. Novçrtç, vai izteiksme ir mazâka vai lielâka par skaitli \n4. Novçrtç, vai String objektâ ir noteikti burti vai nav "));
 			y = 2; //atbilde
 			if (x==y) {
 				JOptionPane.showMessageDialog(null, "--- Pareizi ---");
@@ -55,9 +52,8 @@ public class uzdevums {
 				x4 = 1;
 			}
 		}while(x!=y);
-		
 		do{
-			x = Integer.parseInt(JOptionPane.showInputDialog("--- 5. Vai ir iespçjams lietot vairâkas IF funkcijas neizmantojot ELSE --- \n1. Tikai no 10.00 lîdz 17.00  \n2. Nç \n3. Jâ \n4. Aizliegts pret likumu "));
+			x = Integer.parseInt(JOptionPane.showInputDialog("--- 5. Vai ir iespçjams lietot vairâkas if funkcijas neizmantojot else --- \n1. Tikai no 10.00 lîdz 17.00  \n2. Nç \n3. Jâ \n4. Aizliegts pret likumu "));
 			y = 3;//attbilde
 			if (x==y) {
 				JOptionPane.showMessageDialog(null, "--- Pareizi ---");
@@ -66,7 +62,6 @@ public class uzdevums {
 				x5 = 1;
 			}
 		}while(x!=y);
-		
 		do{
 			x = Integer.parseInt(JOptionPane.showInputDialog("--- 6. IF-ELSE arguments tiek arî saukts par ?  --- \n1. Sazarojuma konstrukcija \n2. Masîvu kontrukcija \n3. Blokshçmu sazarojums \n4. Visi minçtie"));
 			y = 1; //atbilde
@@ -77,7 +72,6 @@ public class uzdevums {
 				x6 = 1;
 			}
 		}while(x!=y);
-		
 		do{
 			x = Integer.parseInt(JOptionPane.showInputDialog("--- 7. Ko sazarojuma komandâ drîkst izmantot kâ nosacîjumu? --- \n1. jebkuru apgalvojumu, par kuru var pateikt, vai tas ir patiess vai nepatiess. \n2. Apgalvojumu, kur netiek norâdîts vai tas ir patiess vai nepatiess. \n3. Nav svarîgi vai ir patiess/nepatiess vai nav patiess/nepatiess \n4. Visas iepriekðçjâs atbildes der."));
 			y = 1; //atbilde
@@ -88,7 +82,6 @@ public class uzdevums {
 				x7 = 1;
 			}
 		}while(x!=y);
-		
 		do{
 			x = Integer.parseInt(JOptionPane.showInputDialog("--- 8. Pirms else drîkst lietot semikolu ?  --- \n1. Izmanto kolu (:), nevis semikolu  \n2. Nav svarîgi.  \n3. pirms else neliek semikolu \n4. else netiek lietots IF sazarojumâ "));
 			y = 3; //atbilde
@@ -99,7 +92,6 @@ public class uzdevums {
 				x8 = 1;
 			}
 		}while(x!=y);
-		
 		do{
 			x = Integer.parseInt(JOptionPane.showInputDialog("--- 9. Cik Switch case’es maksimums var izmantot? --- \n1. Neierobeþoti \n2. 32 \n3. 64 \n4. Atkarîbâ no operçtâjsistçmas "));
 			y = 1; //atbilde
@@ -110,7 +102,6 @@ public class uzdevums {
 				x9 = 1;
 			}
 		}while(x!=y);
-		
 		do{
 			x = Integer.parseInt(JOptionPane.showInputDialog("--- 10. Ko Switch sazarojumâ norâda “Default” ? --- \n1. Norâda pretçji case nosacîjumam. \n2. Norâda, cik case ir sazarojumâ. \n3. Norâda IF funkcijas sazarojumus \n4. Norâda, ka viss ir iestatîjuma opcijâs "));
 			y = 1; //atbilde
@@ -122,7 +113,6 @@ public class uzdevums {
 			}
 			}while(x!=y);
 			scan.close();
-			//nobeigums, punktu saskaitîðana
 			punkti = punkti - x1 - x2 - x3 - x4 - x5 - x6 - x7 - x8 - x9 - x10;
 			JOptionPane.showMessageDialog(null, "Ar pirmo reizi pareizi atbildçts"+punkti+"/10");
 			}
