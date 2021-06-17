@@ -64,26 +64,6 @@ public class uzdevums {
 			x5 = 1;
 		}
 	}while(x!=y);
-	do{
-		x = Integer.parseInt(JOptionPane.showInputDialog("--- 6. IF-ELSE arguments tiek arî saukts par ?  --- \n1. Sazarojuma konstrukcija \n2. Masîvu kontrukcija \n3. Blokshçmu sazarojums \n4. Visi minçtie"));
-		y = 1; //atbilde
-		if (x==y) {
-			JOptionPane.showMessageDialog(null, "--- Pareizi ---");
-		} else {
-			JOptionPane.showMessageDialog(null, "--- Nepareizi, mçìini vçlreiz ---");
-			x6 = 1;
-		}
-	}while(x!=y);
-	do{
-		x = Integer.parseInt(JOptionPane.showInputDialog("--- 7. Ko sazarojuma komandâ drîkst izmantot kâ nosacîjumu? --- \n1. jebkuru apgalvojumu, par kuru var pateikt, vai tas ir patiess vai nepatiess. \n2. Apgalvojumu, kur netiek norâdîts vai tas ir patiess vai nepatiess. \n3. Nav svarîgi vai ir patiess/nepatiess vai nav patiess/nepatiess \n4. Visas iepriekðçjâs atbildes der."));
-		y = 1; //atbilde
-		if (x==y) {
-			JOptionPane.showMessageDialog(null, "--- Pareizi ---");
-		} else {
-			JOptionPane.showMessageDialog(null, "--- Nepareizi, mçìini vçlreiz ---");
-			x7 = 1;
-		}
-	}while(x!=y);
 	}
 }
 
