@@ -105,19 +105,6 @@ public class uzdevums {
 			x9 = 1;
 		}
 	}while(x!=y);
-	
-	do{
-		x = Integer.parseInt(JOptionPane.showInputDialog("--- 10. Ko Switch sazarojumâ norâda “Default” ? --- \n1. Norâda pretçji case nosacîjumam. \n2. Norâda, cik case ir sazarojumâ. \n3. Norâda IF funkcijas sazarojumus \n4. Norâda, ka viss ir iestatîjuma opcijâs "));
-		y = 1; //atbilde
-		if (x==y) {
-			JOptionPane.showMessageDialog(null, "--- Pareizi ---");
-		} else {
-			JOptionPane.showMessageDialog(null, "--- Nepareizi, mçìini vçlreiz ---");
-			x10 = 1;
-		}while(x!=y);
-		scan.close();
-	
-	
 	}
 }
 
