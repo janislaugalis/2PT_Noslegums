@@ -84,27 +84,6 @@ public class uzdevums {
 			x7 = 1;
 		}
 	}while(x!=y);
-	
-	do{
-		x = Integer.parseInt(JOptionPane.showInputDialog("--- 8. Pirms else drîkst lietot semikolu ?  --- \n1. Izmanto kolu (:), nevis semikolu  \n2. Nav svarîgi.  \n3. pirms else neliek semikolu \n4. else netiek lietots IF sazarojumâ "));
-		y = 3; //atbilde
-		if (x==y) {
-			JOptionPane.showMessageDialog(null, "--- Pareizi ---");
-		} else {
-			JOptionPane.showMessageDialog(null, "--- Nepareizi, mçìini vçlreiz ---");
-			x8 = 1;
-		}
-	}while(x!=y);
-	do{
-		x = Integer.parseInt(JOptionPane.showInputDialog("--- 9. Cik Switch case’es maksimums var izmantot? --- \n1. Neierobeþoti \n2. 32 \n3. 64 \n4. Atkarîbâ no operçtâjsistçmas "));
-		y = 1; //atbilde
-		if (x==y) {
-			JOptionPane.showMessageDialog(null, "--- Pareizi ---");
-		} else {
-			JOptionPane.showMessageDialog(null, "--- Nepareizi, mçìini vçlreiz ---");
-			x9 = 1;
-		}
-	}while(x!=y);
 	}
 }
 
