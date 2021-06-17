@@ -23,7 +23,7 @@ public class uzdevums {
 			}
 		}while(x!=y);
 		do{
-			x = Integer.parseInt(JOptionPane.showInputDialog("--- 2. Kâda ir atðíirîba no IF ELSE un Switch sazarojumiem? --- \n1. Switch ir çrtâks par IF ELSE \n2. Switch pieprasa îsâku pierakstu. \n3. Switch izmanto case un default, kamçr IF ELSE netiek tie izmantoti \n4. Visas atbildes ir pareizas. "));
+			x = Integer.parseInt(JOptionPane.showInputDialog("--- 2. Kâda ir atðíirîba no IF ELSE un Switch sazarojumiem? --- \n1. Switch ir çrtâks par IF ELSE \n2. Switch izmanto case un default, kamçr IF ELSE netiek tie izmantoti. \n3. Switch izmanto case un default, kamçr IF ELSE netiek tie izmantoti \n4. Visas atbildes ir pareizas. "));
 			y = 4; //atbilde
 			if (x==y) {
 				JOptionPane.showMessageDialog(null, "--- Pareizi ---");
