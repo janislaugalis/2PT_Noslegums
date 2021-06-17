@@ -32,7 +32,7 @@ public class uzdevums {
 			}
 		}while(x!=y);
 		
-	
+	}while(x!=y);
 	do{
 		x = Integer.parseInt(JOptionPane.showInputDialog("--- 3. Kâda ir atðíirîba starp lineâru un sazarotu programmu?  --- \n1. Lineâra programma nespçj izskatît vairâkas situâcijas, pretçji sazarotai programmai. \n2. Lineâra programma veic tieði to paðu, ko sazarota programma \n3. Lineâra programma piedâvâ vairâk iespçjas \n4. Lineâra programmai lielâks risks uz kïûdâm. "));
 		y = 1; //atbilde
@@ -65,6 +65,5 @@ public class uzdevums {
 		}
 	}while(x!=y);
 	}
+
 }
-
-

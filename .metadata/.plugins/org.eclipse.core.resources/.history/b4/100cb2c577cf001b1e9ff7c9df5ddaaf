@@ -32,7 +32,7 @@ public class uzdevums {
 			}
 		}while(x!=y);
 		
-	
+	}while(x!=y);
 	do{
 		x = Integer.parseInt(JOptionPane.showInputDialog("--- 3. Kâda ir atðíirîba starp lineâru un sazarotu programmu?  --- \n1. Lineâra programma nespçj izskatît vairâkas situâcijas, pretçji sazarotai programmai. \n2. Lineâra programma veic tieði to paðu, ko sazarota programma \n3. Lineâra programma piedâvâ vairâk iespçjas \n4. Lineâra programmai lielâks risks uz kïûdâm. "));
 		y = 1; //atbilde
@@ -54,17 +54,6 @@ public class uzdevums {
 		}
 	}while(x!=y);
 
-	do{
-		x = Integer.parseInt(JOptionPane.showInputDialog("--- 5. Vai ir iespçjams lietot vairâkas if funkcijas neizmantojot else --- \n1. Tikai no 10.00 lîdz 17.00  \n2. Nç \n3. Jâ \n4. Aizliegts pret likumu "));
-		y = 3;//attbilde
-		if (x==y) {
-			JOptionPane.showMessageDialog(null, "--- Pareizi ---");
-		} else {
-			JOptionPane.showMessageDialog(null, "--- Nepareizi, mçìini vçlreiz ---");
-			x5 = 1;
-		}
-	}while(x!=y);
 	}
+
 }
-
-
